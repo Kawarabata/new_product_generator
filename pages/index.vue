@@ -9,7 +9,7 @@
     </div>
     <button @click="shuffle">GENERATE</button>
     <div class="result">
-      <span class="target">{{ randomTarget }}</span> 向けの<br />
+      <span class="target">{{ randomTarget }}</span> の<br />
       <span class="service">{{ randomService }}</span>
     </div>
   </div>
@@ -107,7 +107,6 @@ export default {
   }
 
   & .target {
-    margin-right: 8px;
     border-bottom: 5px solid #4d719e;
   }
 
