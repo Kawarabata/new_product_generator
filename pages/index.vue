@@ -7,11 +7,11 @@
         <br />Generator
       </h1>
     </div>
-    <button @click="shuffle">GENERATE</button>
     <div class="result">
       <span class="target">{{ randomTarget }}</span> の<br />
       <span class="service">{{ randomService }}</span>
     </div>
+    <button @click="shuffle">GENERATE</button>
   </div>
 </template>
 
@@ -65,7 +65,7 @@ export default {
   }
 
   & h1 {
-    margin-bottom: 24px;
+    margin-bottom: 60px;
     font-size: 24px;
     font-weight: bold;
 
@@ -80,7 +80,7 @@ export default {
 
   & button {
     padding: 12px 16px;
-    margin-bottom: 42px;
+    margin-top: 72px;
     background-color: #e5bf27;
     border: none;
     color: #fff;
