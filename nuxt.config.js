@@ -13,7 +13,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/new_product_generator/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/new_product_generator/favicon.ico',
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -37,7 +43,7 @@ export default {
   modules: [],
 
   router: {
-    base: '/new_product_generator/'
+    base: '/new_product_generator/',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -45,12 +51,12 @@ export default {
     postcss: {
       preset: {
         features: {
-          'nesting-rules': true
+          'nesting-rules': true,
         },
         autoprefixer: {
           grid: true,
         },
-      }
-    }
+      },
+    },
   },
 }
